@@ -11,7 +11,10 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/moviedb
     username: postgres
-    password: postgres@123
+    ####SP>>>> pwd updated as per rds instance
+    ####password: postgres@123
+    password: postgres123
+    ####SP<<<<
 
   jpa:
     properties:
